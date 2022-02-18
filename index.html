@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='./style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Codeworks - Blacjack Assignment</title>
+</head>
+
+<body>
+     <div class='head'>
+        <h1>Blackjack</h1>
+        <h2><span id='game-result'>Let's have some fun!</span></h2>
+        <button class='buttons' id='btn-start' value='start' onclick='newGame()'>New Game</button>
+
+    </div>
+    
+    <div class='Row_1'>
+         <div id='player-side'>
+            <h2>You: <span id='player-points'>0</span></h2>
+        </div>
+        <div id='dealer-side'>
+            <h2>Dealer: <span id='dealer-points'>0</span></h2>
+        </div>    
+    </div>
+
+    <div class='Row_2'>
+        <div class='buttons'>
+            <button id='btn-hit' value='hit' onclick='hit()'>Hit</button>
+            <button id='btn-stand' value='stand' onclick='stand()'>Stand</button>
+        </div>
+    </div>
+
+    <div class='Row_3'>
+        <table>
+            <tr>
+                <th>Win</th>
+                <th>Losses</th>
+                <th>Draw</th>
+            </tr>
+            
+            <tr>
+                <td id='wins'><span>0</span></td>
+                <td id='losses'><span>0</span></td>
+                <td id='draws'><span>0</span></td>
+            </tr>
+        </table><br>
+    </div>
+
+
+</body>
+    <script src='script.js'></script>
+</html>
+ 
