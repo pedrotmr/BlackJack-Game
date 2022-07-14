@@ -1,4 +1,4 @@
-# Blackjack Game!
+# Blackjack Game
 
 This is just a simple Blackjack Game built with vanilla JacaScript, HTML and CSS.
 
